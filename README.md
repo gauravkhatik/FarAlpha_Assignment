@@ -2,7 +2,6 @@
 
 Project: Flask + MongoDB Deployment on Kubernetes (Minikube)
 
-================================================================================
                      SCREENSHOTS
 ================================================================================
 
@@ -23,7 +22,7 @@ Screenshot 2: Deployment & Service Verification
 •⁠  ⁠Full deployment verified successfully
 ![Kubernetes Pods](Result/image2.png)
 
-================================================================================
+
  1.⁠ ⁠Dockerfile (Flask Application)
 ================================================================================
 
@@ -39,7 +38,7 @@ COPY . .
 EXPOSE 5000
 CMD ["python", "app.py"]
 
-================================================================================
+
  2.⁠ ⁠Instructions to Build and Push Docker Image
 ================================================================================
 
@@ -55,7 +54,7 @@ docker login
 Push:
 docker push <dockerhub-username>/flask-mongodb-app:latest
 
-================================================================================
+
  3.⁠ ⁠Kubernetes YAML Files
 ================================================================================
 
