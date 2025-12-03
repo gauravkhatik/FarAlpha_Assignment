@@ -21,7 +21,7 @@ Screenshot 2: Deployment & Service Verification
   * mongo-0 (Running)
 •⁠  ⁠Service accessible at: http://127.0.0.1:49682
 •⁠  ⁠Full deployment verified successfully
-![Kubernetes Pods](Result/image1.png)
+![Kubernetes Pods](Result/image2.png)
 
 ================================================================================
  1.⁠ ⁠Dockerfile (Flask Application)
