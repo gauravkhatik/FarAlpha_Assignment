@@ -1,5 +1,4 @@
 # FarAlpha_Assignment
-# FarAlpha_Assignment
 
 Project: Flask + MongoDB Deployment on Kubernetes (Minikube)
 
